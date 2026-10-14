@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Matthew Jess J. Avendaño, BSIT student at Bulacan State University.">
+  <title>Matthew Jess J. Avendaño | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Matthew Jess J. Avendaño</a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Dark mode toggle -->
+      <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false">
+        <span class="toggle-label">Dark mode</span>
+        <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- About Me -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img src="images/picture.jpg" alt="Portrait placeholder of Matthew Jess J. Avendaño" class="hero-photo" width="260" height="260">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Matthew Jess J. Avendaño</h1>
+          <p class="tagline">3rd Year BSIT Student &middot; Aspiring Web Developer / Network Engineer</p>
+          <p class="lead">
+            I'm an Information Technology student who enjoys turning ideas into
+            clean, working web applications.
+          </p>
+          <ul class="contact-list-head">
+        <li><a href="https://github.com/mattavendano2406-droid" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/matthew-avendano-b750963a3" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+          <a href="#projects" class="btn">View My Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a third-year Bachelor of Science in Information Technology student at
+          <strong>Bulacan State University</strong>. I'm learning how to design, build, and
+          deploy applications for the web. I'm always looking
+          for new things to learn and new projects to build.
+        </p>
+
+        <!-- Tech stack list -->
+        <h3 class="stack-title">Tech Stack</h3>
+        <div class="stack-grid">
+
+          <div class="stack-group">
+            <h4>Frontend</h4>
+            <ul class="stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Flutter / Dart</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div class="stack-group">
+            <h4>Backend</h4>
+            <ul class="stack-list">
+              <li>Java</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Certifications -->
+        <h3 class="stack-title">Certifications</h3>
+        <div class="cert-grid">
+
+          <!-- Replace each href with your own Credly badge link -->
+          <a class="cert-card" href="https://www.credly.com/badges/1252d026-a71e-460a-b846-08feb13da8d0/public_url" target="_blank" rel="noopener" aria-label="View Your Certificate Title on Credly (opens in a new tab)">
+            <span class="cert-icon" aria-hidden="true">🏅</span>
+            <h4>Networking Basics</h4>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <p class="cert-date">2026</p>
+            <span class="cert-cta">View on Credly &rarr;</span>
+          </a>
+
+          <a class="cert-card" href="https://www.credly.com/badges/505eea6d-bd73-4b8e-90cd-b08fb3468bbc/public_url" target="_blank" rel="noopener" aria-label="View Another Certificate Title on Credly (opens in a new tab)">
+            <span class="cert-icon" aria-hidden="true">🏅</span>
+            <h4>Networking Devices and Initial Configuration</h4>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <p class="cert-date">2026</p>
+            <span class="cert-cta">View on Credly &rarr;</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <img src="images/image.png" alt="Illustration of a to-do list application" class="card-img">
+            <div class="card-body">
+              <h3>Portfolio</h3>
+              <p>A personal portfolio Built with HTML, CSS, and JavaScript.</p>
+              <ul class="tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+              <a href="https://mattavendano2406-droid.github.io/Portfolio/" class="card-link">View on GitHub &rarr;</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/project1.svg" alt="Illustration of to do list application" class="card-img">
+            <div class="card-body">
+              <h3>To Do List App</h3>
+              <p>A to do list application. built with HTML, CSS, JavaScript. [SAMPLE]</p>
+              <ul class="tags">
+                <li>JavaScript</li><li>API</li><li>Flexbox</li>
+              </ul>
+              <a href="#" class="card-link">View on GitHub &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <h2>Get in Touch</h2>
+      <p>Interested in working together or just want to say hi?</p>
+      <ul class="contact-list">
+        <li><a href="mailto:mattavenadano2406@gmail.com">mattavendano2406@gmail.com</a></li>
+        <li><a href="https://github.com/mattavendano2406-droid" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/matthew-avendano-b750963a3" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+      <p class="copyright">&copy; 2026 Matthew Jess J. Avendaño. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
